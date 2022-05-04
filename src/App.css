@@ -1,0 +1,46 @@
+.error404{
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+section {
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (min-width:769px) and (max-width: 1023px){
+
+	.error404{
+
+		width: 80%;
+  	}
+}
+
+@media screen and (min-width:481px) and (max-width: 768px){
+
+	.error404{
+	
+		width: 80%;
+  	}
+}
+
+@media screen and (min-width:320px) and (max-width: 480px){
+
+	.error404{
+
+		width: 90%;
+  	}
+}
+
+@media screen and (min-width:320px) and (max-width: 480px){
+
+	.error404{
+
+		width: 100%;
+  	}
+}

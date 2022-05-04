@@ -1,0 +1,60 @@
+.h1 {
+
+    text-align: center;
+    background-color: #0aa39c;
+    border: 1px solid white;
+    color: white;
+    font-size: 2.2rem;
+}
+
+.h2{
+
+    text-align: center;
+    color: #0aa39c;
+    font-size: 47px;
+}
+
+.error404{
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+.loaderContainer{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    .loader {
+    
+        border: 16px solid #f3f3f3;
+        border-radius: 50%;
+        border-top: 16px solid darkcyan;
+        border-bottom: 16px solid darkcyan;
+        width: 120px;
+        height: 120px;
+        -webkit-animation: spin 2s linear infinite;
+        animation: spin 2s linear infinite;   
+    }
+    
+    p{
+        color: darkcyan;
+        font-size: larger;
+    }
+ 
+    @-webkit-keyframes spin {
+
+        0% { -webkit-transform: rotate(0deg); }
+        100% { -webkit-transform: rotate(360deg); }
+    }
+        
+    @keyframes spin {
+
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+    }
+}

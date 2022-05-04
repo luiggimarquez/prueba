@@ -1,0 +1,116 @@
+.wishList{
+
+    background-color: rgba(0, 139, 139, 0.315);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+
+    h1{
+        text-align: center;
+        color: darkcyan;
+       
+    }
+
+    .itemsWishList{
+
+        background: teal;
+        display: flex;
+        width: 50%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2rem;
+        margin-bottom: 20px;
+        color: white;
+    }
+
+    .guarda{
+
+        height: 400px;
+    }
+}
+
+.accessLottieWish{
+
+    background-color: rgba(0, 139, 139, 0.315);
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    height: 78vh;
+    align-self: center;  
+}
+
+h1{
+    text-align: center;
+    color: darkcyan;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+
+   .wishList{
+       min-height: 80vh;
+    }
+}
+@media screen and (min-width: 481px) and (max-width: 768px){
+
+   .wishList{
+
+        min-height: 80vh;
+
+        .itemsWishList{
+
+            width: 70%;
+        }
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 480px){
+
+    .wishList{
+
+        min-height: 80vh;
+
+        .itemsWishList{
+
+            width: 70%;
+            
+            .buttonContainer{ 
+                
+                .botonesCarrito {
+              
+                    flex-direction: column;
+                    
+                    .botonAdd {
+
+                        width: 50%;
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 319px){
+
+    .wishList{
+
+        min-height: 80vh;
+
+        .itemsWishList{
+
+            width: 95%;
+            
+            .buttonContainer{ 
+                
+                .botonesCarrito {
+              
+                    flex-direction: column;
+                    
+                    .botonAdd {
+
+                        width: 50%;
+                    }
+                }
+            }
+        }
+    }
+}
