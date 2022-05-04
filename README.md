@@ -4,8 +4,6 @@ Este site es de una empresa dedicada al rubro tecnológico de la ingeniería de 
 tanto a nivel empresarial como en los hogares. Esta versión desarrollada en **React.js** está enfocada en productos de networking y cámaras de vigilancia, para un e-commerce.
 
 ![web principal](./public/img/ryutech.jpg)
-
-
 ## Comenzando 🚀
 
 Este es un proyecto público, puedes decargarte una copia desde la pestaña code o haciendo un Clone 😊
